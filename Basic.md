@@ -198,3 +198,94 @@ Markdown обрамляет кодовый блок сразу двумя эле
 
 # Ссылки
 
+Существует два варианта оформления ссылок. inline и reference:
+
+```
+[Обычная ссылка в строке](http://germangorelkin.blogspot.ru)
+```
+[Обычная ссылка в строке](http://germangorelkin.blogspot.ru)
+
+```
+[Обычная ссылка с title](http://germangorelkin.blogspot.ru "Мой блог")
+```
+[Обычная ссылка с title](http://germangorelkin.blogspot.ru "Мой блог")
+
+```
+[Относительная ссылка на документ](../blob/master/README.md)
+```
+[Относительная ссылка на документ](../blob/master/README.md)
+
+```
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
+```
+
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
+
+# Выделение
+
+```
+Курсив обозначается *звездочками* или _подчеркиванием_.
+
+Полужирный шрифт - двойными **звездочками** или __подчеркиванием__.
+
+Комбинированное выделение **звездочками и _подчеркиванием_**.
+
+Для зачеркнутого текста используются две тильды . ~~Уберите это.~~
+```
+
+Курсив обозначается *звездочками* или _подчеркиванием_.
+
+Полужирный шрифт - двойными **звездочками** или __подчеркиванием__.
+
+Комбинированное выделение **звездочками и _подчеркиванием_**.
+
+Для зачеркнутого текста используются две тильды . ~~Уберите это.~~
+
+# Изображения
+
+```
+Внутри строки:  
+![alt-текст](https://ru.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg "Текст заголовка логотипа 1")
+
+В сноске:  
+![alt-текст][logo]
+
+[logo]: https://ru.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg "Текст заголовка логотипа 2"
+```
+
+Внутри строки:  
+![alt-текст](https://ru.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg "Текст заголовка логотипа 1")
+
+В сноске:  
+![alt-текст][logo]
+
+[logo]: https://ru.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg "Текст заголовка логотипа 2"
+
+# Таблицы
+
+*Таблицы не являются частью Markdown, но многие обработчики, например Markdown Here и Github, поддерживают их.*
+
+
+```
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is      | some wordy text |     **$1600** |
+| col 2 is      | centered        |         $12   |
+| zebra stripes | are neat        |        ~~$1~~ |
+```
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is      | some wordy text |     **$1600** |
+| col 2 is      | centered        |         $12   |
+| zebra stripes | are neat        |        ~~$1~~ |
