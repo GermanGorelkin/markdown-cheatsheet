@@ -49,6 +49,14 @@ Alt-H2
 <a name="blockquotes"><h2>Цитаты</h2></a>
 Markdown использует email-подобный стиль использования символов > для оформления цитат:
 
+```
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+```
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
@@ -58,12 +66,24 @@ Markdown использует email-подобный стиль использо
 
 Markdown позволяет ставить > только перед первой строкой абзаца:
 
+```
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+```
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 Цитаты могут быть вложенными:
 
+```
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+```
 > This is the first level of quoting.
 >
 > > This is nested blockquote.
