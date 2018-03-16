@@ -287,12 +287,12 @@ I get 10 times more traffic from [Google] [1] than from
 ```
 
 Внутри строки:  
-![alt-текст](https://ru.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg "Текст заголовка логотипа 1")
+![alt-текст](http://bipbap.ru/wp-content/uploads/2017/09/0_838c4_c99493f3_XXL-700x420.jpg "Текст заголовка логотипа 1")
 
 В сноске:  
 ![alt-текст][logo]
 
-[logo]: https://ru.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg "Текст заголовка логотипа 2"
+[logo]: http://bipbap.ru/wp-content/uploads/2017/09/0_838c4_c99493f3_XXL-700x420.jpg "Текст заголовка логотипа 2"
 
 <a name="tables"><h2>Таблицы</h2></a>
 *Таблицы не являются частью Markdown, но многие обработчики, например Markdown Here и Github, поддерживают их.*
